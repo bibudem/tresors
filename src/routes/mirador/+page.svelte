@@ -3,8 +3,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </svelte:head>
 
-<h1>Mirador de Martin</h1>
-<p>Un test (2)!</p>
 <div id="mirador"></div>
 <script>
     import { onMount } from 'svelte';
