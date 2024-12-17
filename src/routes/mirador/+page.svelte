@@ -11,10 +11,13 @@
 
     onMount(() => {
     // Instantiate Mirador viewer
+        const urlParams = new URLSearchParams(window.location.href);
+        const manifestUrl = urlParams.get("iiif-content");
         var miradorInstance = Mirador.viewer({
             id: 'mirador',
             windows: [{
-                manifestId: 'https://bibudem.github.io/tresors-iiif/manifests/50335781.json'
+//                manifestId: 'https://bibudem.github.io/tresors-iiif/manifests/50335781.json'
+                manifestId: manifestUrl
             }],
             language: 'fr'
         });
