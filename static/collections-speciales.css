@@ -1,0 +1,101 @@
+.header-navigation {
+    /* background-color: #0B113A; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Figtree, sans-serif;
+    /* padding: 3em 4em 0; */
+    width: 100%;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 92em;
+}
+
+.navigation-wrapper {
+    border-radius: 0.75em 0.75em 0.75em 0.75em;
+    background-color: #EEF4F7;
+    display: flex;
+    min-height: 5.5em;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2.5em 5em;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.25em 0.25em;
+}
+
+.navigation-wrapper {
+    max-width: 90%;
+}
+
+.nav-container {
+    max-width: 100%;
+    padding: 0 1.25em;
+    color: #0B113A;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    font-size: 1.1875em;
+    color: #0B113A;
+    letter-spacing: 0.01em;
+}
+
+.brand-logo {
+    aspect-ratio: 3.72;
+    object-fit: contain;
+    object-position: center;
+    width: 9em;
+    height: auto;
+    align-self: center;
+}
+
+.brand-text {
+    align-self: center;
+    margin: 0;
+    font-size: 1.1875em;
+}
+
+.vertical-divider {
+    height: 2.5em;
+    width: 1px;
+    background-color: rgb(55, 66, 77);
+    margin: 0;
+}
+
+.nav-menu-list {
+    align-self: stretch;
+    display: flex;
+    min-width: 15em;
+    width: 100%;
+    align-items: center;
+    gap: 1.5em;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-items {
+    display: flex;
+    width: 100%;
+    max-width: 47.6875em;
+    align-items: center;
+    gap: 2.5em;
+    justify-content: flex-end;
+}
+
+body {
+    font-family: "Figtree", sans-serif !important;
+    font-size: 15px !important;
+    background-color: rgb(250, 253, 254);
+    /* bleu pâle */
+}

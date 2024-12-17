@@ -3,10 +3,29 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/collections-speciales.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		<header class="header-navigation">
+			<nav class="main-menu" aria-label="Menu principal">
+				<div class="navigation-wrapper">
+					<div class="brand-container">
+						<a href="/" class="brand-logo-wrapper">
+							<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9db7f79a6a33bb4b4a29412adf3d79592fe7107bfb9746c0727d9251be8a673c?placeholderIfAbsent=true&amp;apiKey=f33f77d569964301a406939b84ccc45d" alt="Logo des Bibliothèques UdeM" class="brand-logo">
+						</a>
+						<div class="vertical-divider"></div>
+						<p class="brand-text">Les Collections spéciales</p>
+					</div>
+					<div class="nav-container">
+						<ul class="nav-menu-list" role="menu">
+							<li class="nav-item" role="menuitem"><a href="apropos.html">À propos</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
