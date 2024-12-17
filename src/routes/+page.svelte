@@ -40,5 +40,5 @@
     <li><a target="_blank" href="https://projectmirador.org/embed/?iiif-content=https://bibudem.github.io/tresors-iiif/manifests/869387060.json">Aureus liber metaphisice divi Alberti Magni […]</a></li>
     <li><a target="_blank" href="https://projectmirador.org/embed/?iiif-content=https://bibudem.github.io/tresors-iiif/manifests/869511130.json">Historiæ canadensis […]</a></li>
 </ul>
-
+<p>Un test mais toujours vers le même document...</p>
 <p>Un lien statique vers <a href="mirador.html" target="_blank">Mirador</a> local...</p>
