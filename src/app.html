@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1, width=device-width">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/collections-speciales.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,7 +11,7 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<header class="header-navigation">
-			<nav class="main-menu" aria-label="Menu principal">
+<!--			<nav class="main-menu" aria-label="Menu principal">
 				<div class="navigation-wrapper">
 					<div class="brand-container">
 						<a href="/" class="brand-logo-wrapper">
@@ -25,6 +27,13 @@
 					</div>
 				</div>
 			</nav>
+-->
+			<div class="header">
+				<a href="/"><img class="group-icon" alt="Les bibliothèques UdeM" src="%sveltekit.assets%/bibliotheques.svg"></a>
+				<div class="les-collections-parent">
+					<div class="les-collections"><a href="apropos.html">À propos</a></div>
+				</div>
+			</div>
 		</header>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
