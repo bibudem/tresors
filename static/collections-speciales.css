@@ -94,8 +94,51 @@
 }
 
 body {
-    font-family: "Figtree", sans-serif !important;
-    font-size: 15px !important;
     background-color: rgb(250, 253, 254);
     /* bleu pâle */
 }
+
+
+body {
+    font-family: "Figtree", sans-serif !important;
+    font-size: 15px !important;
+    margin: 0;
+    line-height: normal;
+}
+
+
+
+.group-icon {
+    width: 199.9px;
+    position: relative;
+    height: 55px;
+}
+.les-collections {
+    position: relative;
+    font-weight: 500;
+}
+.les-collections-parent {
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.header {
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+    color: #0b113a;
+    font-family: Figtree;
+}
+

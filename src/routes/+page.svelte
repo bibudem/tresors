@@ -59,3 +59,4 @@
     <li><a target="_blank" href="mirador.html?a=1&iiif-content=https://bibudem.github.io/tresors-iiif/manifests/869387060.json">Aureus liber metaphisice divi Alberti Magni […]</a></li>
     <li><a target="_blank" href="mirador.html?a=1&iiif-content=https://bibudem.github.io/tresors-iiif/manifests/869511130.json">Historiæ canadensis […]</a></li>
 </ul>
+
